@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Poetsen+One&display=swap');
+
+body{
+  background-image: url(/css/img/bart_simpson_lisa_simpson_hd_the_simpsons-1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+p{
+   color: aqua;
+   font-family: "Jacquard 12";
+
+}
+h1{
+  color: gold;  
+  text-align: center;
+}
+.sample1{
+  background-color: aquamarine;
+}
+#sample_id{
+
+  padding: 20px;
+margin-left: auto;
+margin-right: auto;
+  background-color: bisque;
+  border-style: groove;
+  border-width: 10px;
+  border-color: rgb(179, 54, 54);
+}
+
+.box{
+  width: 50px;
+  height: 50px;
+  background-color: chocolate;
+  position: relative;
+
+}
+
+
+  .box1{
+    width: 50%;
+    height: 450px;
+    background-color: rgb(3, 15, 180);
+    position: sticky;
+    margin: 45px;
+    top: 50px;
+    z-index: 1;
+
+}
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
